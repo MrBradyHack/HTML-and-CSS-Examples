@@ -1,0 +1,726 @@
+  /* This is how you comment in CSS */
+  /* Basic CSS */
+
+
+    body {
+
+    color:white;
+    padding:0px;
+    margin:0px;
+
+   }
+
+
+
+  nav {
+    background-image: url("Thirteen_Logo.png");
+    background-color: #000000;
+    float: left;
+    margin:0px;
+    padding:0px;
+    width: 100%;
+    height:75px;
+    text-align: center;
+    font-size: 25px;
+    font-family:Impact;
+    background-repeat: no-repeat;
+   } 
+
+ul {
+   list-style-type:none;
+   margin: 5px;
+   padding: 5px;
+  
+   }
+
+li {
+   display: inline-block;
+   margin-top: 15px;
+   font-variant: small-caps;
+   }
+
+a   {
+
+    text-decoration: none;
+    color: white;
+    }
+
+
+
+  .button {
+    margin: 10px;
+
+
+  }
+
+  #Nav_Bottom {
+
+  background-image: url("Keys.png");
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  width:100%;
+  height: 30px;
+
+  }
+
+  #Home_content {
+  background-image: url("Acoustic.jpg");
+  float: left;
+  width: 100%;
+  margin:0px;
+  padding: 0px;
+  height:650px;
+  text-align: center;
+  font-family:cursive;
+  background-color: white;
+  color: black;
+ 
+}
+
+
+#intro {
+  float: right;
+  margin:10px;
+  padding: 10px;
+  font-size: 25px;
+  color: white;
+}
+
+  #About_content {
+  float: left;  
+  width: 100%;
+  margin:0px;
+  padding: 0px;
+  height:650px;
+  text-align: center;
+  font-variant: small-caps;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+
+}
+.slide-1 {
+   background-image: url("Band.jpg");
+
+}
+.slide-2 {
+   background-image: url("Vocals.jpg");
+ }
+ .slide-3 {
+   background-image: url("Lead.jpg");
+ }
+
+ .slide-4 {
+   background-image: url("Bass.jpg");
+ }
+
+.slide-5 {
+   background-image: url("Rhythm.jpg");
+   color: white;
+ }
+
+ .slide-6 {
+   background-image: url("Strings.jpg");
+ }
+
+
+
+.slide-viewer {
+     position:relative;
+     overflow:hidden;
+     width:100%;
+     height:650px;
+}
+
+.slide-group {
+       width:100%;
+       height:650px;
+       position:relative;
+}
+
+.slide {
+  width:100%;
+  height:650px;
+  display:none;
+  position: absolute;
+}
+
+.slide:first-child {
+  display:block;
+}
+
+.slide-buttons {
+  text-align:center;
+  
+}
+
+
+  #Video_content {
+  width: 100%;
+  float: left;
+  margin:0px;
+  padding: 0px;
+  height:650px;
+  text-align: center;
+  font-family:cursive;
+  background-color: white;
+  color: black;
+  
+}
+
+.Main_Video {
+  background-color: black;
+  float: right;
+  margin: 15px;
+  margin-top: 5px;
+  padding: 5px;
+  width:65%;
+  height: 625px;
+  border-style: ridge;
+  border-color: gray;
+  border-width: 3px;
+}
+
+.Video_1 {
+  background-color: black;
+  float: left;
+  margin: 15px;
+  margin-top: 55px;
+  padding: 5px;
+  width:20%;
+  border-style: ridge;
+  border-color: gray;
+  border-width: 3px;
+
+}
+
+.Video_2 {
+  background-color: black;
+  float: left;
+  margin: 15px;
+  margin-top: 15px;
+  padding: 5px;
+  width:20%;
+  border-style: ridge;
+  border-color: gray;
+  border-width: 3px;
+  
+}
+
+.Video_3 {
+  background-color: black;
+  float: left;
+  margin: 15px;
+  margin-top: 15px;
+  padding: 5px;
+  width:20%;
+  border-style: ridge;
+  border-color: gray;
+  border-width: 3px;
+  
+}
+
+  #Events_content {
+  background-color: white;  
+  width: 100%;
+  float: left;
+  margin:0px;
+  padding: 0px;
+  height:650px;
+  text-align: center;
+  font-variant: small-caps;
+  color: black;
+
+}
+
+ #Top {
+  width:75%;
+
+}
+
+th,td {
+  font-size: 20px;
+}
+
+#Calendar  {
+ 
+ width: 100%;
+ height:515px;
+ margin:0px;
+ padding:0px;
+}
+
+#CH {
+  margin: 0px;
+  padding-top: 2px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+a[title] {
+  color: red;
+}
+
+a[title]:hover:after {
+  content: attr(title);
+  background-image: url("Pike.jpg");
+  background-repeat: no-repeat;
+  float: left;
+  margin:5px;
+  padding: 5px;
+  width: 30%;
+  height: 250px;
+  color: black;
+  position: absolute;
+  border-style: solid;
+  border-color: gray;
+  border-width: 3px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px #888888;
+  
+}
+
+
+
+
+ 
+ #Originals_content {
+  background-color: black; 
+  width: 100%;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  height:650px;
+  text-align: center;
+  font-variant: small-caps;
+  color: black;
+ 
+ }
+
+ #CD {
+  background-image: url("CD_Back.jpg");
+  background-color: white;
+  float: left;
+  margin:15px;
+  padding:10px;
+  width: 45%;
+  height:600px;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+ }
+
+  #CDC {
+  text-align: center;
+  font-size: 25px;
+  font-family: Tahoma;
+  text-decoration: underline;
+ }
+
+ #CD ul {
+  float: left;
+}
+
+ #CD li { 
+  display: block;
+  font-size: 20px;
+  font-family: Goudy Old Style;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#CD li a {
+  color: black;
+}
+
+  #CD_1 {
+  background-image: url("CD_Front.jpg");
+  float: right;
+  margin:15px;
+  padding:10px;
+  width: 45%;
+  height:600px;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+ }
+
+ #CD_1L {
+  text-align: center;
+ }
+
+  
+
+  #Contact_content {
+  background-image: url("Contact.jpg");  
+  width: 100%;
+  float: left;
+  margin:0px;
+  padding: 0px;
+  height:650px;
+  text-align: center;
+  font-variant: small-caps;
+  background-color: white;
+  color: black;
+
+}
+
+form {
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+textarea {
+    width:100%;
+    height:250px;
+    resize:none;
+}
+
+
+
+.Con_Par {
+  float: right;
+  font-size: 25px;
+  margin:10px;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 20px;
+  float: left;
+}
+
+.error {
+
+  text-align: center;
+  font-size: 12px;
+  color: red;
+  width: 100%;
+}
+
+#fn {
+  height:25px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+#ln {
+  height:25px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+#em {
+  height:25px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+#Message {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+#submit {
+  float: left;
+  margin: 5px;
+  margin-top:15px;
+  padding: 5px;
+  background: white;
+  color: black;
+  font-variant: small-caps;
+  font-weight: bold;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+#reset {
+  float: left;
+  margin: 5px;
+  margin-top: 15px;
+  padding: 5px;
+  background: white;
+  color: black;
+  font-variant: small-caps;
+  font-weight: bold;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+#Footer_Top {
+  background-image: url("Keys.png");
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  width:100%;
+  height: 30px;
+
+}
+
+
+
+
+  footer {
+
+  background: #323232;
+  float: left;
+  color: black;
+  margin: 0px;
+  padding:  0px;
+  width: 100%;
+  height:300px;
+  clear:both;
+     
+}
+
+
+
+
+#column_1 {
+  float: left;
+  text-align: left;
+  color: white;
+  font-variant: small-caps;
+  font-size: 20px;
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+
+}
+
+#column_1 h2 {
+  text-indent: 10px;
+  margin-bottom: 0px;
+  font-size: 25px;
+  text-decoration: underline;
+
+}
+
+.FB:hover {
+ color:#3b5998;
+
+}
+
+.TW:hover {
+ color: #4099FF;
+}
+
+.IG:hover {
+  color:#3f729b;
+}
+
+.PT:hover {
+  color: #C92228;
+}
+
+.YT:hover {
+  color:#e52d27;
+} 
+
+#column_2 {
+  float: left;
+  text-align: justify;
+  color: white;
+  font-family: sans-serif;
+  width: 30%;
+  margin: 5px;
+  padding: 5px;
+
+}
+#column_2 a {
+  text-decoration: none;
+  color:black;
+}
+#column_2_B {
+  text-align: center;
+  font-family:cursive;
+}
+
+
+.modalDialog {
+  position: fixed;
+  font-variant: small-caps;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+
+
+
+.modalDialog:target {
+  opacity:1;
+  pointer-events: auto;
+}
+
+.modalDialog div {
+  width: 50%;
+  height: 360px;
+  position: relative;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  background: gray;
+}
+
+
+
+.close {
+  background: #606061;
+  color: #FFFFFF;
+  line-height: 25px;
+  position: absolute;
+  right: -12px;
+  text-align: center;
+  top: -10px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { 
+  background: red; 
+}
+
+
+#FFT {
+  text-align: center;
+  font-size: 25px;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+#FF{
+  float: left;
+  margin:5px;
+  padding: 5px;
+}
+
+#fn_2 {
+  height:25px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+#ln_2 {
+  height:25px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+#em_2{
+  height:25px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+#Message_2 {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+#submit_2 {
+  float: left;
+  margin: 5px;
+  margin-top:15px;
+  padding: 5px;
+  background: white;
+  color: black;
+  font-variant: small-caps;
+  font-weight: bold;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+#reset_2 {
+  float: left;
+  margin: 5px;
+  margin-top: 15px;
+  padding: 5px;
+  background: white;
+  color: black;
+  font-variant: small-caps;
+  font-weight: bold;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+
+#column_3 {
+  float: left;
+  text-align: right;
+  color: white;
+  font-variant: small-caps;
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+#googleMap {
+  float: right;
+  margin:0px;
+  padding:0px;
+  margin-top:10px;
+  width: 65%;
+  height: 250px;
+  border-style: solid;
+  border-color:#191919;
+  border-width: 3px;
+}
+
+#Footer_Bottom {
+  background:#191919;
+  float: left;
+  text-align: center;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  width:100%;
+  height: 100px;
+}
+
+.button_1 {
+  margin: 10px;
+}
+
+.BT:hover {
+  color:blue;
+
+}
+
+
+
+
+

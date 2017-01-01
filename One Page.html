@@ -1,0 +1,146 @@
+     <!-- This is a one page layout where there is no other HTML included. -->
+    <!Doctype HTML>
+    <html>
+        <head>
+     	    <meta charset="UTF-8">
+            <title>Home</title>
+            <link rel="stylesheet" type="text/css" href="style.css">
+             <!-- I added a Google map. -->
+            <script src="http://maps.googleapis.com/maps/api/js"></script>
+            <script src="maps.js"></script>
+             <!-- Added Contact.js to validate the form from the client side. -->
+            <script src="Contact.js"></script>
+        </head>
+        <body>
+     	    <header>
+            </header>
+            <nav id="Nav_Content">
+                 <!-- This is how to navigate to diferent sections / Divs on the same page. -->
+    	 		<ul>
+    	 			<li><a href="#Intro_Content" class="button">Intro</a></li>
+    	 			<li><a href="#Tutorials_Content" class="button">Tutorials</a></li>
+                    <li><a href="#Review_Content" class="button">Reviews</a></li>
+    	 			<li><a href="#Services_Content" class="button">Services and Location</a></li>
+                    <li><a href="#Apps_Content" class="button">Apps</a></li>
+    	 			<li><a href="#Contact_Content" class="button">Contact</a></li>
+                    <li><a href="#Footer_Main" class="button">More Info</a></li>
+                    <li><a href="Store.html" class="button">Store</a></li>
+    	 		</ul>
+            </nav>
+            <div id="Image_Content">
+            </div>
+            <div id="Top">
+            <!-- This is how I centered my image -->
+            <center><img src="Logo_1.png" id="Logo"></center>
+            </div>
+            <div id="Intro_Content">
+            <!-- The <span> tag is used to group inline-elements in a document. -->
+            <!--Headings are defined with the <h1> to <h6> tags.<h1>defines the most important heading.<h6> defines the least important heading. -->
+                <h1><span>Intro</span></h1>
+                <!-- The <strong> tag makes the word or paragraph BOLD-->
+                <p id="Hello"><strong>Hello and welcome to</strong> </p>
+                <div class="verticalLine">
+                </div>
+                <p id="About"><strong>My Name Is</strong> </p>
+            </div>
+            <div id="Tutorials_Content">
+            <h1><span>Tutorials</span></h1>
+            <video id="TC"  controls poster="Logo_1.png">
+            </video>
+            <p id="TCP"><strong>Don't worry,</strong>
+            </p>
+            </div>
+            <div id="Review_Content">
+            <h1><span>Reviews</span></h1>
+            <!-- Here is a video tag with an id so I can style it in CSS. I left the controls blank so it plays when clicked on. I Also have a poster that displays an image until played. You also need a source, Example <source src="movie.mp4" type="video/mp4"> -->
+            <video id="RC" controls poster="Logo_1.png">
+            </video>
+            <p id="RCP"><strong>Have a hard time making decisions?</strong></p>
+            </div>
+            <div id="Services_Content">
+            <h1><span>Services and Location</span></h1>
+            <p id="Services"><strong>We offer many services including:</strong></p>
+             <div id="googleMap"></div>
+            </div>
+            <div id="Contact_Content">
+            <h1><span>Contact</span></h1>
+            <form name="Form_Main" id="Form_Main" action="#" onsubmit="return validateForm();" method="post">
+                 First name:<br/>
+                 <input type="text" name="txtFirstName" size="55" id="fn"/>
+                 <br/>
+                Last name:<br/>
+                <input type="text" name="txtLastName" size="55" id="ln"/>
+                <br/>
+                Email:<br/>
+                <input type="text" name="txtEmail" size="55" id="em"/>
+                <br/>
+               Questions - Comments:<br/>
+                <textarea id="TA"></textarea>
+                <br/>
+                <input type="reset" value="Reset" class="Form_Button">
+                <input type="submit" value="Submit" class="Form_Button"><br/>
+            </form>
+            <div id="MC">Alternative Ways of Contacting me :</div>
+            <!--Links to my Email. -->
+            <ul>
+                <li><a href="mailto:brady_hack@yahoo.com" class="Yahoo">brady_hack@yahoo.com</a></li><br/><br/>
+                <li><a href="mailto:bradytechsolutions@yahoo.com" class="BT_Yahoo">bradytechsolutions@yahoo.com</a></li><br/><br/>
+                <li id="Cell">Personal Cell:  </li><br/><br/>
+            </ul>
+            </div>
+            <!--Footers usually include social media, work you have done and other links. -->
+            <div id="Footer_Main">
+                <h1><span>More Info</span></h1>
+                <div id="column_1">
+                  <h2>Social Media</h2>
+                   <ul>
+                        <li><a href="" class="FB">Facebook</a></li><br/>
+                        <li><a href="" class="TW">Twitter</a></li><br/>
+                        <li><a href="" class="IG">Instagram</a></li><br/>
+                        <li><a href="" class="PT">Pinterest</a></li><br/>
+                        <li><a href="" class="YT">YouTube</a></li><br/>
+                    </ul>
+                </div>
+                 <div id="column_2">
+                <h2>My Work - Projects</h2>
+                <ul>
+                    <li><a href="" class="">Something</a></li><br/>
+                    <li>Gofigure</li><br/>
+                    <li><a href="" class="SM">Social Media </a></li><br/>
+                    <li><a href="" class="Store"> Store </a></li><br/>
+                    <li><a href="" class="Store 2">Store 2</a></li><br/>
+                </ul>
+            </div>
+            <div id="column_3">
+                <h2>Rates</h2>
+                 <ul>
+                    <li>Standard Website - 20/hr</li><br/>
+                    <li>Business Website - 20/hr</li><br/>
+                    <li>Facebook Page - 20/hr</li><br/>
+                    <li>Custom PC - 20/hr Plus Parts</li><br/>
+                    <li>Hardware Install - 20/hr</li><br/>
+                    <li>Business Networking - 20/hr</li><br/>
+                    <li>Virus Removal - 20/hr</li><br/>
+                </ul>
+            </div>
+            <div id="column_4">
+                <h2>Personal Note</h2>
+                <p id="C4P"><img src="Me.jpg" id="DG"> I'd like to personally say "Thank - You !" </p>
+            </div>
+            </div>
+            <!-- At the very bottom of the page I include another navigation source and the copyright with a current date. -->
+            <div id="Footer_Bottom">
+                <ul>
+                    <li><a href="#Nav_Content" class="button_1">Home</a></li>
+                    <li><a href="#Intro_Content" class="button_1">Intro</a></li>
+                    <li><a href="#Tutorials_Content" class="button_1">Tutorials</a></li>
+                    <li><a href="#Review_Content" class="button_1">Reviews</a></li>
+                    <li><a href="#Services_Content" class="button_1">Services and Location</a></li>
+                    <li><a href="#Apps_Content" class="button_1">Apps</a></li>
+                    <li><a href="#Contact_Content" class="button_1">Contact</a></li>
+                    <li><a href="Store.html" class="button_1">Store</a></li>
+                </ul>
+                <p id="FBP">Copyright  - 2015</p>
+            </div>
+        </body>
+        </html>
